@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-int[] nums = new int[4]{ 0, 2, 7, 15 };
+int[] nums = new int[4]{ 2, 7, 11, 15 };
 int target = 9;
 TwoSum(nums, target);
 
@@ -30,7 +30,7 @@ int[] TwoSum(int[] nums, int target)
     {
         if (value.ContainsKey(temp = target - nums[i]))
         {
-            value.TryGetValue(4, out arr[0]);
+            value.TryGetValue(temp, out arr[0]);
             arr[1] = i;
             return arr;
         }
