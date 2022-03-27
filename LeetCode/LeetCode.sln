@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSumLeetCode", "TwoSumLeetCode\TwoSumLeetCode.csproj", "{AC47806F-624C-46DE-A72E-C3E2F8921485}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumber", "..\PalindromeNumber\PalindromeNumber.csproj", "{08DC638B-B46C-42E8-B6DB-F9C155B6812D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumber", "PalindromeNumber\PalindromeNumber.csproj", "{08DC638B-B46C-42E8-B6DB-F9C155B6812D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToInteger", "RomanToInteger\RomanToInteger.csproj", "{BC4BA427-C4B5-49E7-8941-A37B8DECF3A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{08DC638B-B46C-42E8-B6DB-F9C155B6812D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08DC638B-B46C-42E8-B6DB-F9C155B6812D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08DC638B-B46C-42E8-B6DB-F9C155B6812D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC4BA427-C4B5-49E7-8941-A37B8DECF3A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC4BA427-C4B5-49E7-8941-A37B8DECF3A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC4BA427-C4B5-49E7-8941-A37B8DECF3A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC4BA427-C4B5-49E7-8941-A37B8DECF3A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
