@@ -18,11 +18,13 @@ int[] PlusOne(int[] digits)
         {
             digits[i] = 0;
         }
+
         else
         {
             digits[i] = digits[i] + 1;
             return digits;
         }
+
         i--;
     }
 

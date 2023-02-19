@@ -11,14 +11,13 @@ int[] nums = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
 RemoveDuplicates(nums);
 int RemoveDuplicates(int[] nums)
 {
-    int length = nums.Length;
-    if(length <= 1)
+    if(nums.Length <= 1)
     {
-        return length;
+        return nums.Length;
     }
 
     int index = 0;
-    for(int i = 1; i < length; i++)
+    for(int i = 1; i < nums.Length; i++)
     {
         if(nums[i] != nums[index])
         {

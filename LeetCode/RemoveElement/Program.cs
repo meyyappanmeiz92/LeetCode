@@ -19,6 +19,5 @@ int RemoveElement(int[] nums, int value)
             index++;
         }
     }
-
     return index;
 }

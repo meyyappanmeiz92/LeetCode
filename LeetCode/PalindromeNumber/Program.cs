@@ -58,10 +58,10 @@
 ///and add reminder to get the reverse of a number => reverse = reverse * 10 + rem
 ///last get the quotient and continue the loop until it is 0 => n = n / 10
 /// </summary>
-IsPalindromeNumber(121);
+IsPalindromeNumber(-122);
 bool IsPalindromeNumber(int x)
 {
-    if(x < 0)
+    if (x < 0)
     {
         return false;
     }
@@ -69,14 +69,14 @@ bool IsPalindromeNumber(int x)
     int rem, reverse = 0;
     int n = x;
 
-    while(n != 0)
+    while (n != 0)
     {
         rem = n % 10;
         reverse = reverse * 10 + rem;
         n = n / 10;
     }
 
-    if(x == reverse)
+    if (x == reverse)
     {
         return true;
     }
